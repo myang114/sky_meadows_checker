@@ -58,7 +58,7 @@ if response.status_code == 200:
         sections = {
             'Cloud Cover': ['Overcast', '90% covered', '80% covered', '70% covered', '60% covered', '50% covered',
                             '40% covered', '30% covered', '20% covered', '10% covered', 'Clear'],
-            'Transparency': ['Too cloudy to forecast', 'Poor', 'Below Average', 'Average ', 'Above average', 'Transparent'],
+            'Transparency': ['Too cloudy to forecast', 'Poor', 'Below Average', 'Average (', 'Above average', 'Transparent'],
             'Smoke': ['No Smoke', '2ug/m^3', '5ug/m^3', '10ug/m^3', '20ug/m^3', '40ug/m^3', '60ug/m^3', '80ug/m^3',
                     '100ug/m^3', '200ug/m^3', '500ug/m^3'],
             'Wind': ['>45 mph', '29 to 45 mph', '17 to 28 mph', '12 to 16 mph', '6 to 11 mph', '0 to 5 mph'],
